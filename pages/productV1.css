@@ -1,0 +1,145 @@
+body {
+  padding: 1rem 4rem;
+  min-width: fit-content;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  padding: 2rem 0;
+}
+nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-right: 8rem;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+
+  font-family: Ruda;
+  padding: 0.6rem 3rem;
+  position: relative;
+  padding-right: 3.2rem;
+  padding-top: 0.8rem;
+  line-height: 33px;
+}
+.nav-link:after {
+  content: "🡢";
+  position: absolute;
+  top: 23%;
+  max-width: 0%;
+  transition: transform 200ms ease-in;
+  opacity: 0;
+  transform: translate(-10px, 0);
+}
+.nav-link:hover:after {
+  opacity: 1;
+  transform: translate(8px, 0);
+  z-index: -1;
+}
+.nav-link {
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  transition: border-color 600ms linear;
+  z-index: 1;
+}
+.nav-link:hover {
+  border-color: black;
+}
+
+.title h1 {
+  font-family: Ruda;
+  font-weight: 800;
+  font-size: 152px;
+  padding-top: 0;
+  margin-top: 76px;
+}
+
+header {
+  display: flex;
+  padding: 2rem 0;
+  height: 655px;
+}
+header div {
+  width: 50%;
+}
+header .description {
+  margin-top: -4rem;
+}
+header .description h4 {
+  font-family: Manrope;
+  font-size: 39px;
+  margin: 0.8rem 0;
+  color: #747375;
+  font-weight: 400;
+}
+header .image-main {
+  display: flex;
+  justify-content: flex-end;
+}
+.image-main img {
+  height: 655px;
+  width: 85%;
+  object-position: 10%;
+}
+
+header .description p {
+  margin-top: 59px;
+  margin-bottom: 122px;
+  font-family: Manrope;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.image-full img {
+  height: 417px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-two {
+  display: flex;
+  padding: 2rem 0;
+  height: 655px;
+}
+.main-two div {
+  width: 50%;
+}
+.main-two .description h4 {
+  font-family: Manrope;
+  font-size: 39px;
+  margin: 0.8rem 0;
+  color: #747375;
+  font-weight: 400;
+}
+header .image-main {
+  display: flex;
+  justify-content: flex-end;
+}
+.image-main img {
+  height: 655px;
+  width: 85%;
+  object-position: 10%;
+}
+
+.main-two .description p {
+  margin-top: 59px;
+  margin-bottom: 122px;
+  font-family: Manrope;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.image-full img {
+  height: 417px;
+  width: 100%;
+  object-fit: cover;
+}

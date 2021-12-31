@@ -344,6 +344,9 @@ header .photo-main {
   font-size: 26px;
   margin-top: -2px;
 }
+.final-page {
+  display: none !important;
+}
 
 .photo-about .emoji-smile {
   position: absolute;
@@ -562,12 +565,19 @@ footer .list-border {
     text-align: justify;
     font-weight: 500;
     font-size: 40px;
+    position: relative;
   }
   .about-content :nth-child(even) {
     margin-top: -20px;
   }
   .about-content br {
     display: none;
+  }
+  .final-page {
+    display: block !important;
+  }
+  .final-none {
+    display: none !important;
   }
   footer {
     height: 324px;
@@ -600,5 +610,9 @@ footer .list-border {
   .toggleTalk {
     display: block !important;
     width: fit-content;
+  }
+
+  .work-project:after {
+    opacity: 0;
   }
 }

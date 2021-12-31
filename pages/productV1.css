@@ -86,17 +86,20 @@ header .image-main {
   justify-content: flex-end;
 }
 .image-main img {
-  height: 655px;
+  height: 730px !important;
   width: 85%;
   object-position: 10%;
+  margin-top: -100px;
 }
 
 header .description p {
-  margin-top: 59px;
-  margin-bottom: 122px;
-  font-family: Manrope;
   font-size: 27px;
   font-weight: 500;
+  font-family: Manrope;
+  line-height: 50px;
+}
+header .description p:nth-child(odd) {
+  margin-top: 59px;
 }
 
 .image-full img {
@@ -107,8 +110,9 @@ header .description p {
 
 .main-two {
   display: flex;
-  padding: 2rem 0;
+  padding-top: 12rem;
   height: 655px;
+  font-family: Manrope;
 }
 .main-two div {
   width: 50%;
@@ -142,4 +146,7 @@ header .image-main {
   height: 417px;
   width: 100%;
   object-fit: cover;
+}
+.gallery {
+  text-align: center;
 }

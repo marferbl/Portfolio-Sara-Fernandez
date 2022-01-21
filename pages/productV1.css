@@ -142,7 +142,7 @@ header .image-main {
   object-fit: contain;
   z-index: 99;
 }
-.icon-main:after {
+.icon-main.only:after {
   content: url("../images/Group\ 1.png");
   position: absolute;
   top: 65%;
@@ -273,4 +273,11 @@ footer .list-border {
   nav ul li a {
     color: white !important;
   } */
+}
+
+.grey-bg {
+  background-color: #f2f2f2;
+  padding-top: 1rem;
+  margin: 2rem -6rem;
+  flex-wrap: wrap;
 }

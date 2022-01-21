@@ -395,15 +395,14 @@ footer .list-border {
   position: relative;
 }
 .tucomunidapp:after {
-  content: url("./images/image-main.png");
+  content: url("./images/tucomunidapp/mobile.png");
   width: 300px;
   height: 500px;
   z-index: 99;
   position: absolute;
   top: -230px;
-  left: 220%;
+  left: 290%;
   display: none;
-  overflow: hidden;
 }
 .tucomunidapp:hover:after {
   display: block;
@@ -421,7 +420,6 @@ footer .list-border {
   top: -230px;
   left: 220%;
   display: none;
-  overflow: hidden;
 }
 .fine-and-rare:hover:after {
   display: block;
@@ -439,7 +437,6 @@ footer .list-border {
   top: -230px;
   left: 220%;
   display: none;
-  overflow: hidden;
 }
 .bizum:hover:after {
   display: block;
@@ -457,7 +454,6 @@ footer .list-border {
   top: -230px;
   left: 220%;
   display: none;
-  overflow: hidden;
 }
 .quiero-hotel:hover:after {
   display: block;
@@ -475,7 +471,6 @@ footer .list-border {
   top: -230px;
   left: 220%;
   display: none;
-  overflow: hidden;
 }
 .ciento-cinco:hover:after {
   display: block;

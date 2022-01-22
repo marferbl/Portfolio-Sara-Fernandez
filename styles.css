@@ -95,11 +95,11 @@ header .subtitle {
   position: absolute;
   top: 85%;
   left: 80%;
-  -webkit-animation: rotating 3s linear infinite;
-  -moz-animation: rotating 3s linear infinite;
-  -ms-animation: rotating 3s linear infinite;
-  -o-animation: rotating 3s linear infinite;
-  animation: rotating 3s linear infinite;
+  -webkit-animation: rotating 4s linear infinite;
+  -moz-animation: rotating 4s linear infinite;
+  -ms-animation: rotating 4s linear infinite;
+  -o-animation: rotating 4s linear infinite;
+  animation: rotating 4s linear infinite;
 }
 @keyframes rotating {
   from {
@@ -147,6 +147,8 @@ header .photo-main {
   border-color: black;
   transition: all 1s ease;
   z-index: 99;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
 .link-hi a {
   transition: all 1s ease;
@@ -214,6 +216,7 @@ header .photo-main {
   margin: 1rem 0;
   border-bottom: 1px solid grey;
   padding: 0.6rem 0;
+  padding-bottom: 2rem;
 }
 .work a {
   color: white;
@@ -222,6 +225,7 @@ header .photo-main {
 }
 .work .work-project {
   font-size: 39px;
+  font-weight: 300;
 }
 .work .work-type {
   font-size: 12px;
@@ -323,6 +327,7 @@ header .photo-main {
   font-family: Ruda;
   font-size: 152px;
   margin: 0;
+  margin-bottom: -3rem;
 }
 .about .about-content span {
   line-height: 1;
@@ -341,10 +346,11 @@ header .photo-main {
   width: 90% !important;
 }
 .photo-about .letsTalk-link {
-  width: 160px !important;
+  width: 160px;
   font-size: 26px;
   margin-top: -2px;
 }
+
 .final-page {
   display: none !important;
 }
